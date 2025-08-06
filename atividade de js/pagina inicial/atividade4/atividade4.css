@@ -1,0 +1,32 @@
+body{
+    padding: 10px;
+    background-color: chartreuse;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.comteiner{
+    background-color: aliceblue;
+    padding: 10px;
+    font-family: arial;
+    border-radius: 10px;
+    box-shadow: 0 0px 10px rgb(72, 143, 0);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+}
+input{
+    padding: 4px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 0px;
+    box-shadow: 0 0px 10px chartreuse;
+}
+button{
+    border: 0px;
+    background-color: chartreuse;
+    border-radius: 4px;
+    width: 80px;
+    margin-top: 10px;
+}

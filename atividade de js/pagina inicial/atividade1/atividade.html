@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="atividade.css">
+    <title>DISPOSITIVOS MÓVEIS</title>
+</head>
+<body>
+    <!--soma de dois numeros-->
+    <div class="comteiner">
+        <h1>soma de dois numeros</h1>
+        <input id="num1" type="number" placeholder="primeiro numero">+
+        
+        <input id="num2" type="number" placeholder="segundo numero">
+
+        <button onclick="somar()">somar</button>
+
+        <h3 id="res">"</h3>
+    </div>
+    <script>
+        function somar(){
+            var num1 = Number(document.getElementById('num1').value);
+            var num2 = Number(document.getElementById('num2').value);
+            var resultado = num1 + num2;
+
+            document.getElementById('res').innerHTML = `a soma de ${num1} mais ${num2} e igual a ${resultado}.`
+        }
+    </script>
+    
+</body>
+</html>

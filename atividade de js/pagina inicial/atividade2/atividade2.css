@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(132, 0, 255);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.comteiner{
+    font-family: Arial;
+    background-color: aliceblue;
+    border-radius: 10px;
+    text-align: center;
+    width: 30%;
+    height: 200px;
+    box-shadow: 0 0px 10px rgb(45, 1, 99);
+}
+input{
+    border-radius: 10px;
+    width: 60%;
+    height: 30px;
+    border: 0px;
+    box-shadow: 0 0px 10px blueviolet;
+}
+button{
+    border: 0px;
+    background-color: blueviolet;
+    border-radius: 4px;
+    width: 50px;
+    height: 30px;
+}
